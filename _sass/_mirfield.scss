@@ -1,0 +1,30 @@
+.portfolio-box-text-only {
+    position: relative;
+    display: block;
+    max-width: 650px;
+    height: 227px;
+    margin: 0 auto;
+    background: rgba($theme-primary, 1);
+    opacity: 1;
+    color: white;
+    
+    &:hover {
+        .portfolio-box-caption {
+            opacity: 1;
+        }
+    }
+    @media (min-width: 768px) {
+        .portfolio-box-text-only {
+            .portfolio-box-text-only-content {
+                    font-size: 22px;
+            }
+        }
+    }
+}
+#map{
+    width:100%;
+    height:200px; 
+    @media (min-width: 768px) {
+        height:400px;
+    }
+}

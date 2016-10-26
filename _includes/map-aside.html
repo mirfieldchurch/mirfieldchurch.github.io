@@ -1,0 +1,67 @@
+  <aside class="bg-dark">
+      <div class="container text-center">
+          <div class="mirfield-map">
+              <div id="map">
+             <!-- google maps, API and not Embedded -->
+              <script type="text/javascript">
+                    //select the church
+                    function initMap(){
+                        var church = {lat: 53.686563 , lng: -1.688289};
+                        var churchMap = new google.maps.Map(
+                            document.getElementById('map'),
+                            {
+                                zoom: 18,
+                                center: church,
+                                styles: [
+                                            {
+                                                "featureType": "all",
+                                                "elementType": "all",
+                                                "stylers": [
+                                                    {
+                                                        "invert_lightness": true
+                                                    },
+                                                    {
+                                                        "saturation": 10
+                                                    },
+                                                    {
+                                                        "lightness": 30
+                                                    },
+                                                    {
+                                                        "gamma": 0.5
+                                                    },
+                                                    {
+                                                        "hue": "#435158"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "featureType": "poi.business",
+                                                "stylers": [
+                                                {
+                                                    "visibility": "off"
+                                                }
+                                                ]
+                                            },
+                                            {
+                                                "featureType": "poi.place_of_worship",
+                                                "stylers": [
+                                                {
+                                                    "visibility": "on"
+                                                }
+                                                ]
+                                            }
+                                        ]
+                            });
+                        //create a marker on the map
+                        var marker = new google.maps.Marker({
+                            position: church,
+                            map: churchMap
+                        });
+                    }
+               </script>
+               <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBa4Tc3lqyvVwXE6dwcVFjIUVu6IHcmtv0&callback=initMap" async defer>
+               </script>
+                </div>
+          </div>
+      </div>
+  </aside>
