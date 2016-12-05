@@ -1,0 +1,17 @@
+---
+layout: page
+title: Audio Podcast of Mirfield Evangelical Church Sermons
+---
+{% assign bounceDelay = 0 %}
+            {% assign sorted_sermons = (site.sermons | sort: 'date') | reverse %}
+            {% for sermon in sorted_sermons %}
+                {% capture details %}{{ sermon.book }} - {{ sermon.pastor  }}{% endcapture %}
+                <div class="col-lg-3 col-md-6 text-center">
+                <div class="service-box">
+                <i class="fa fa-4x fa-volume-up wow bounceIn text-primary" data-wow-delay=".{% increment bounceDelay %}s"></i>
+                    <a href="{{ sermon.audio }}"><h3>{{ sermon.title }}</h3></a>
+                    <p class="text-muted">{{ details }}</p>
+                    
+                </div>
+                </div>
+{% endfor %}
