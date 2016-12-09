@@ -28,3 +28,69 @@
         height:400px;
     }
 }
+header .header-content{
+    @media screen and (min-width:701px) and (max-width: 800px) {
+        top:70%;
+    }
+}
+header .header-content .header-content-inner {
+    h1{
+        font-size: 40px;
+    }
+}
+
+//navication stuff
+.navbar-default{
+    
+    @media screen and (max-width: 500px) {
+        svg.logo{
+                display: none;
+            }
+        span.logo-text{
+            display: block;
+            font-size: small;
+        } 
+    }
+   @media screen and (min-width:701px) and (max-width: 800px) {
+        svg.logo{
+            width:95%;
+            height: 20%;
+        }
+    }
+    
+    @media (min-width: 768px) {
+        span.logo-text{
+            display: none;
+        }
+        &.affix {
+           span.logo-text{
+            display: block;
+            } 
+            svg.logo{
+                display: none;
+            }
+        }
+    }
+    .navbar-brand{
+        height:auto;
+    }
+}
+.mirfield-map {
+    h2 {
+        margin: 0 auto 20px;
+    }
+}
+.bg-darker {
+    background-color: $map-aside;
+    color: white;
+}
+.bg-default-dark {
+    background-color: $default-dark;
+    color: white;
+}
+#clubs{
+    background-color: $theme-primary-dark;
+}
+#beliefs{
+    margin-top: 10%;
+}

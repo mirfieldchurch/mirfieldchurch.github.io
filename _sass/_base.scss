@@ -109,7 +109,7 @@ aside {
         }
     }
     @media (min-width: 768px) {
-        background-color: darkred;
+        background-color: white;
         font-size: 15px;
         border-color: rgba(white, .3);
         .navbar-header .navbar-brand {
@@ -121,9 +121,9 @@ aside {
         }
         .nav > li > a,
         .nav > li > a:focus {
-            color: rgba(white, .7);
+            color: darken(rgba($theme-primary, .7),2%);
             &:hover {
-                color: white;
+                color: $theme-primary-dark;
             }
         }
         &.affix {
@@ -279,11 +279,6 @@ header {
     }
 }
 
-.mirfield-map {
-    h2 {
-        margin: 0 auto 20px;
-    }
-}
 
 // Bootstrap Overrides
 .text-primary {
