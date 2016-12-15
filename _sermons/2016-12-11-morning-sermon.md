@@ -4,5 +4,5 @@ testament: New
 pastor: Andrew Murray
 book:2 Peter
 audio: http://www.mecgoodnews.org/audio/111220161.mp3
-service: Morning
+service: morning
 ---
