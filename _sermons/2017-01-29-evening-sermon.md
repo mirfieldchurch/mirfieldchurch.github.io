@@ -1,5 +1,5 @@
 ---
-title: Jesus Reveals Our Sin
+title: How Jesus Deals With Our Problems
 testament: New
 pastor: Simon Sweeney
 book: John 13:1-17
