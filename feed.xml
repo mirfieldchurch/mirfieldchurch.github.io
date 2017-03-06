@@ -1,0 +1,22 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mirfield Evangelical Church - Sermons</title>
+    <description>Your latest baking news</description>
+    <link>{{ site.url }}</link>
+    {% assign sorted_sermons = (site.sermons | sort: 'date') | reverse %}
+    {% for sermon in sorted_sermons %}
+        {% capture details %}{{ sermon.book }} - {{ sermon.pastor  }}{% endcapture %}
+        <item>
+          <title>{{ sermon.title | xml_escape }}</title>
+          <description>{{ details | xml_escape }}</description>
+          <pubDate>{{ sermon.date | date_to_xmlschema }}</pubDate>
+          <link>{{ sermon.audio }}</link>
+          <guid isPermaLink="true">{{ sermon.audio }}</guid>
+        </item>
+    {% endfor %}
+  </channel>
+</rss>
