@@ -9,8 +9,8 @@ layout: null
     <description>Your latest MEC sermons</description>
     <link>{{ site.url | xml_escape }}</link>
     <language>en-gb</language>
-    <copyright>{{ 'now' | date: '%Y' }} Mirfield Evangelical Church. All rights reserved.</copyright>
-    <author>Mirfield Evangelical Church</author>
+    <copyright>&#xA9;{{ 'now' | date: '%Y' }} Mirfield Evangelical Church. All rights reserved.</copyright>
+    <itunes:author>Mirfield Evangelical Church</itunes:author>
     <itunes:category text="News &amp; Politics">
       <itunes:category text="Religion & Spirituality" >
         <itunes:category text="Christianity" />
