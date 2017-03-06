@@ -4,17 +4,20 @@ layout: null
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Mirfield Evangelical Church - Sermons</title>
-    <description>Your latest baking news</description>
+    <title>Mirfield Evangelical Church</title>
+    <description>Your latest MEC sermons</description>
     <link>{{ site.url }}</link>
+    <language>en-gb</language>
+    <copyright>{{ 'now' | date: '%Y' }} Mirfield Evangelical Church. All rights reserved.</copyright>
     {% assign sorted_sermons = (site.sermons | sort: 'date') | reverse %}
     {% for sermon in sorted_sermons %}
-        {% capture details %}{{ sermon.book }} - {{ sermon.pastor  }}{% endcapture %}
+        {% capture details %}{{ sermon.book }} {% endcapture %}
         <item>
           <title>{{ sermon.title | xml_escape }}</title>
-          <description>{{ details | xml_escape }}</description>
+          <description>{{ sermon.book | xml_escape }}</description>
           <pubDate>{{ sermon.date | date_to_xmlschema }}</pubDate>
-          <link>{{ sermon.audio }}</link>
+          <author>{{ sermon.pastor | xml_escape }}</author>
+          <enclusure url={{ sermon.audio }} type="audio/mpeg"/>
           <guid isPermaLink="true">{{ sermon.audio }}</guid>
         </item>
     {% endfor %}
