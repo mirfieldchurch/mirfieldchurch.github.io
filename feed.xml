@@ -11,9 +11,10 @@ layout: null
     <copyright>{{ 'now' | date: '%Y' }} Mirfield Evangelical Church. All rights reserved.</copyright>
     {% assign sorted_sermons = (site.sermons | sort: 'date') | reverse %}
     {% for sermon in sorted_sermons %}
+     {% capture details %}{{ sermon.book }} - {{ sermon.pastor  }}{% endcapture %}
         <item>
           <title>{{ sermon.title | xml_escape }}</title>
-          <description>{{ sermon.book }}</description>
+          <description>{{ sermon.book | xml_escape }}</description>
           <pubDate>{{ sermon.date | date_to_xmlschema }}</pubDate>
           <author>{{ sermon.pastor | xml_escape }}</author>
           <enclosure url="{{ sermon.audio }}" length="3000" type="audio/mpeg" />
