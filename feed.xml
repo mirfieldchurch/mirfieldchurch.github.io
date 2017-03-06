@@ -14,7 +14,7 @@ layout: null
      {% capture details %}{{ sermon.book }} - {{ sermon.pastor  }}{% endcapture %}
         <item>
           <title>{{ sermon.title | xml_escape }}</title>
-          <description>{{ sermon.book | xml_escape }}</description>
+          <description>{{ details| xml_escape }}</description>
           <pubDate>{{ sermon.date | date_to_xmlschema }}</pubDate>
           <author>{{ sermon.pastor | xml_escape }}</author>
           <enclosure url="{{ sermon.audio }}" length="3000" type="audio/mpeg" />
