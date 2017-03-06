@@ -11,7 +11,6 @@ layout: null
     <copyright>{{ 'now' | date: '%Y' }} Mirfield Evangelical Church. All rights reserved.</copyright>
     {% assign sorted_sermons = (site.sermons | sort: 'date') | reverse %}
     {% for sermon in sorted_sermons %}
-        {% capture details %}{{ sermon.book }} {% endcapture %}
         <item>
           <title>{{ sermon.title | xml_escape }}</title>
           <description>{{ sermon.book | xml_escape }}</description>
