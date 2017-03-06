@@ -3,6 +3,7 @@ layout: null
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss xmlns:itunes="http://www.itunes.com/DTDs/Podcast-1.0.dtd" version="2.0">
   <channel>
     <title>Mirfield Evangelical Church</title>
     <description>Your latest MEC sermons</description>
@@ -26,9 +27,9 @@ layout: null
     
     {% capture pubDate %}
     {% if sermon.morning %}
-      {{sermon.date | date: '%a' }}, {{ sermon.date  | date_to_string }} 10:45:00 BST
+      {{sermon.date | date: '%a' }}, {{ sermon.date  | date_to_string }} 10:45:00 GMT
      {% else %}
-      {{sermon.date | date: '%a' }}, {{ sermon.date  | date_to_string }} 18:30:00 BST
+      {{sermon.date | date: '%a' }}, {{ sermon.date  | date_to_string }} 18:30:00 GMT
      {% endif %}
     {% endcapture %}
         <item>
