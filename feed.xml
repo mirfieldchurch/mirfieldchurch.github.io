@@ -8,7 +8,13 @@ layout: null
     <description>Your latest MEC sermons</description>
     <link>{{ site.url | xml_escape }}</link>
     <language>en-gb</language>
-    <copyright>{{ 'now' | date: '%Y' }} Mirfield Evangelical Church. All rights reserved.</copyright>
+    <copyright>&#xA9;{{ 'now' | date: '%Y' }} Mirfield Evangelical Church. All rights reserved.</copyright>
+    <author>Mirfield Evangelical Church</author>
+    <itunes:category text="News &amp; Politics">
+      <itunes:category text="Religion & Spirituality" >
+        <itunes:category text="Christianity" />
+      </itunes:category>
+  </itunes:category>
     <image>
     <url>{{ '/img/logo.png' | prepend: site.url }}</url>
     <title>Mirfield Evangelical Church</title>
@@ -20,9 +26,9 @@ layout: null
     
     {% capture pubDate %}
     {% if sermon.morning %}
-      {{sermon.date | date: '%a' }}, {{ sermon.date  | date_to_string }} 10:45:00 +0000
+      {{sermon.date | date: '%a' }}, {{ sermon.date  | date_to_string }} 10:45:00 BST
      {% else %}
-      {{sermon.date | date: '%a' }}, {{ sermon.date  | date_to_string }} 18:30:00 +0000
+      {{sermon.date | date: '%a' }}, {{ sermon.date  | date_to_string }} 18:30:00 BST
      {% endif %}
     {% endcapture %}
         <item>
