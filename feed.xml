@@ -20,9 +20,9 @@ layout: null
     
     {% capture pubDate %}
     {% if sermon.morning %}
-      {{sermon.date | date: '%a' }}, {{ sermon.date  | date_to_string }} 10:45:00 +0000 }}
+      {{sermon.date | date: '%a' }}, {{ sermon.date  | date_to_string }} 10:45:00 +0000
      {% else %}
-      {{sermon.date | date: '%a' }}, {{ sermon.date  | date_to_string }} 18:30:00 +0000 }}
+      {{sermon.date | date: '%a' }}, {{ sermon.date  | date_to_string }} 18:30:00 +0000
      {% endif %}
     {% endcapture %}
         <item>
