@@ -18,3 +18,5 @@ markdown: kramdown
 # plugin for search 
 # url: https://github.com/slashdotdash/jekyll-lunr-js-search
 # gems: ['jekyll-lunr-js-search']
+gems:
+  - jekyll-feed
