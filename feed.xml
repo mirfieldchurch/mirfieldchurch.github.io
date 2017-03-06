@@ -13,7 +13,7 @@ layout: null
     {% for sermon in sorted_sermons %}
         <item>
           <title>{{ sermon.title | xml_escape }}</title>
-          <description>{{ sermon.book | xml_escape }}</description>
+          
           <pubDate>{{ sermon.date | date_to_xmlschema }}</pubDate>
           <author>{{ sermon.pastor | xml_escape }}</author>
           <enclusure url={{ sermon.audio }} type="audio/mpeg"/>
