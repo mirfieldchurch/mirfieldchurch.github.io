@@ -6,7 +6,7 @@ layout: null
   <channel>
     <title>Mirfield Evangelical Church</title>
     <description>Your latest MEC sermons</description>
-    <link>{{ site.url }}</link>
+    <link>{{ site.baseurl }}</link>
     <language>en-gb</language>
     <copyright>{{ 'now' | date: '%Y' }} Mirfield Evangelical Church. All rights reserved.</copyright>
     {% assign sorted_sermons = (site.sermons | sort: 'date') | reverse %}
