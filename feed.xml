@@ -16,7 +16,7 @@ layout: null
           <description>{{ sermon.book }}</description>
           <pubDate>{{ sermon.date | date_to_xmlschema }}</pubDate>
           <author>{{ sermon.pastor | xml_escape }}</author>
-          <enclusure url="{{ sermon.audio }}" length="{{sermon.size}}" type="audio/mpeg" />
+          <enclosure url="{{ sermon.audio }}" length="3000" type="audio/mpeg" />
           <guid isPermaLink="true">{{ sermon.audio }}</guid>
         </item>
     {% endfor %}
