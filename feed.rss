@@ -7,6 +7,7 @@ layout: null
     <title>Mirfield Evangelical Church</title>
     <description>Your latest MEC sermons</description>
     <link>{{ site.url | xml_escape }}</link>
+    <atom:link href="{{ '/feed.rss' | prepend: site.url }}" rel="self" type="application/rss+xml" />
     <language>en-gb</language>
     <copyright>&#xA9;{{ 'now' | date: '%Y' }} Mirfield Evangelical Church. All rights reserved.</copyright>
     <itunes:author>Mirfield Evangelical Church</itunes:author>
@@ -34,12 +35,11 @@ layout: null
         <item>
           <title>{{ sermon.title | xml_escape }}</title>
           <description>{{ details| xml_escape }}</description>
-          <pubDate>{{ pubDate | xml_escape }}</pubDate>
+          <pubDate>{{ pubDate | date_to_rfc822 }}</pubDate>
           <author>{{ sermon.pastor | xml_escape }}</author>
           <enclosure url="{{ sermon.audio }}" length="21900" type="audio/mpeg" />
           <guid isPermaLink="true">{{ sermon.audio }}</guid>
         </item>
     {% endfor %}
-  <atom:link href="{{ '/feed.xml' | prepend: site.url }}" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
