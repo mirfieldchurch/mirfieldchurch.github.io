@@ -9,13 +9,23 @@ layout: null
     <link>{{ site.url | xml_escape }}</link>
     <language>en-gb</language>
     <copyright>{{ 'now' | date: '%Y' }} Mirfield Evangelical Church. All rights reserved.</copyright>
+    <image>
+    <url>{{ "img/logo.png" | prepend: site.url }}</url>
+    <title>Mirfield Evangelical Church</title>
+    <link>{{ site.url | xml_escape }}</link>
+    </image>
     {% assign sorted_sermons = (site.sermons | sort: 'date') | reverse %}
     {% for sermon in sorted_sermons %}
-     {% capture details %}{{ sermon.book }} - {{ sermon.pastor  }}{% endcapture %}
+    {% capture details %}{{ sermon.book }} - {{ sermon.pastor  }}{% endcapture %}
+    {% if sermon.morning %}
+         {% assign pubDate = sermon.date | date: '%s' | plus: (10 | times: 3600) | plus: (evening_minute = 45 | times: 60) %}
+     {% else %}
+         {% assign pubDate = sermon.date | date: '%s' | plus: (18 | times: 3600) | plus: (evening_minute = 30 | times: 60) %}
+     {% endif %}
         <item>
           <title>{{ sermon.title | xml_escape }}</title>
           <description>{{ details| xml_escape }}</description>
-          <pubDate>{{ date_to_xmlschema(sermon.date) }}</pubDate>
+          <pubDate>{{ pubDate | date_to_xmlschema }}</pubDate>
           <author>{{ sermon.pastor | xml_escape }}</author>
           <enclosure url="{{ sermon.audio }}" length="3000" type="audio/mpeg" />
           <guid isPermaLink="true">{{ sermon.audio }}</guid>
