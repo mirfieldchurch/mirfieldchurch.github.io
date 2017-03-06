@@ -10,7 +10,7 @@ layout: null
     <language>en-gb</language>
     <copyright>{{ 'now' | date: '%Y' }} Mirfield Evangelical Church. All rights reserved.</copyright>
     <image>
-    <url>{{ 'img/logo.png' | prepend: site.url }}</url>
+    <url>{{ '/img/logo.png' | prepend: site.url }}</url>
     <title>Mirfield Evangelical Church</title>
     <link>{{ site.url | xml_escape }}</link>
     </image>
@@ -28,7 +28,7 @@ layout: null
         <item>
           <title>{{ sermon.title | xml_escape }}</title>
           <description>{{ details| xml_escape }}</description>
-          <pubDate>{{ pubDate | date_to_xmlschema }}</pubDate>
+          <pubDate>{{ pubDate | xml_escape }}</pubDate>
           <author>{{ sermon.pastor | xml_escape }}</author>
           <enclosure url="{{ sermon.audio }}" length="3000" type="audio/mpeg" />
           <guid isPermaLink="true">{{ sermon.audio }}</guid>
