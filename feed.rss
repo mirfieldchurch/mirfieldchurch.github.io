@@ -26,7 +26,7 @@ layout: null
     {% capture details %}{{ sermon.book }} - {{ sermon.pastor  }}{% endcapture %}
     
     {% capture pubDate %}
-    {% if {{sermon.service | downcase }} = 'morning' %}
+    {% if ({{sermon.service | downcase }}) == 'morning' %}
       {{sermon.date | date: '%a' }}, {{ sermon.date  | date_to_string }} 10:45:00 GMT
      {% else %}
       {{sermon.date | date: '%a' }}, {{ sermon.date  | date_to_string }} 18:30:00 GMT
