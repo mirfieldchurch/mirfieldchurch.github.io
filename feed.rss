@@ -29,7 +29,7 @@ layout: null
     {% if service == 'morning' %}
       {{sermon.date | date: '%a' }}, {{ sermon.date  | date_to_string }} 10:45:00 GMT
      {% else %}
-      {{sermon.date | date: '%a' }}, {{ sermon.date  | date_to_string }} 18:30:00 GMT
+      {{sermon.date | date: '%a' }}, {{ sermon.date  | date_to_string }} 18:30:00 GMT {{service}}
      {% endif %}
     {% endcapture %}
         <item>
