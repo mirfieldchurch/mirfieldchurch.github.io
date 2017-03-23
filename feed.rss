@@ -24,10 +24,10 @@ layout: null
     {% assign sorted_sermons = (site.sermons | sort: 'date') | reverse %}
     {% for sermon in sorted_sermons %}
     {% capture details %}{{ sermon.book }} - {{ sermon.pastor  }}{% endcapture %}
-    {% capture service %}{{ sermon.service | downcase }} {% endcapture %}
+    {% capture service %}{{ sermon.service | downcase }}{% endcapture %}
     {% capture pubDate %}
     {% if service == 'morning' %}
-      {{sermon.date | date: '%a' }}, {{ sermon.date  | date_to_string }} 10:45:00 GMT
+      {{sermon.date | date: '%a' }}, {{ sermon.date  | date_to_string }} 10:45:00 GMT {{service}}
      {% else %}
       {{sermon.date | date: '%a' }}, {{ sermon.date  | date_to_string }} 18:30:00 GMT {{service}}
      {% endif %}
