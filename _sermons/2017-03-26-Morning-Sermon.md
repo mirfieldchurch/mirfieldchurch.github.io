@@ -1,5 +1,5 @@
 ---
-title: Spiritual Struggles - Guilty
+title: Spiritual Struggles - Guilt
 testament: Old
 pastor: Simon Sweeney 
 book: Psalm 32
