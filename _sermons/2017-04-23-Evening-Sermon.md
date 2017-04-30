@@ -1,5 +1,5 @@
 ---
-title: The Wheat and The Weed
+title: The Wheat and The Weeds
 testament: New
 pastor: Stephen Emmott 
 book: Matthew 13:24-30, 36-43
