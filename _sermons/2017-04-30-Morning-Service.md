@@ -1,5 +1,5 @@
 ---
-title: 
+title: Zacchaeus
 testament: New
 pastor: Stephen Emmott 
 book: Luke 18:35-19:10
