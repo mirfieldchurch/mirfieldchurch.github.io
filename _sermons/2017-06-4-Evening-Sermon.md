@@ -1,4 +1,3 @@
-
 ---
 title: Pentecost
 testament: New
