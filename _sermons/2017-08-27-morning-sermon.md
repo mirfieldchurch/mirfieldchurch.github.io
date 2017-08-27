@@ -1,5 +1,5 @@
 ---
-title: 1 Chronicles 22:2-19
+title: A Vision For The Future
 testament: New
 pastor: Stephen Emmott
 book: 1 Chronicles 22:2-19
