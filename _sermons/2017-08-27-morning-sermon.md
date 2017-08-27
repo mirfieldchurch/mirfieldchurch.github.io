@@ -2,7 +2,7 @@
 title: 1 Chronicles 22:2-19
 testament: New
 pastor: Stephen Emmott
-book: 1 Chroniucles 22:2-19
+book: 1 Chronicles 22:2-19
 audio: http://www.mecgoodnews.org/audio/200820171.mp3
 service: Morning
 ---
