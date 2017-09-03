@@ -1,5 +1,5 @@
 ---
-title: Being Grace People
+title: Being Grace People 
 testament: New
 pastor: Trevor Baker
 book: Galatians 6:11-18
