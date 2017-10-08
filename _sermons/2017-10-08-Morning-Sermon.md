@@ -1,5 +1,5 @@
 ---
-title: Jesus Washed His Disciples' Feet
+title: Jesus Washes His Disciples' Feet
 testament: New
 pastor: Colin Mountain
 book: John 13:1-17
