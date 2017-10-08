@@ -1,5 +1,5 @@
 ---
-title: Grace: Astonishing and Powerful
+title: Grace: Astonishing & Powerful
 testament: New
 pastor: Graham Heaps
 book: Galatians 2:20
