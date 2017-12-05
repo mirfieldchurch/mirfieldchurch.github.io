@@ -1,23 +1,32 @@
 ---
 layout: page
-title: Constitution Mirfield Evangelical Chruch 
+title: Mirfield Evangelical Chruch Archived Sermons
+permalink: /archive/
+sitemap: false
 ---
-<link rel="stylesheet" href="css/super-search.css">
-<div class="container">
-    <div class="row">
-      <div class="super-search is-active" id="js-super-search">
-        <input type="text" placeholder="Type here to search" class="super-search__input" id="js-super-search__input">
-        <ul class="super-search__results" id="js-super-search__results"></ul>
-      </div>
-    </div>
+<div id="home-search" class="home">
+     <script>
+         (function() {
+             var cx = '[Your CSE Search ID]';
+             var gcse = document.createElement('script');
+             gcse.type = 'text/javascript';
+             gcse.async = true;
+             gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+             '//www.google.com/cse/cse.js?cx=' + cx;
+             var s = document.getElementsByTagName('script')[0];
+             s.parentNode.insertBefore(gcse, s);
+         })();
+     </script>
+     <gcse:search queryParameterName="searchString"></gcse:search>
+ </div>
+ <div class="grid" id="searchBar">
+      <div>
+          <div id="search">
+              <form role="search" method="get" action="{{ site.baseurl }}//archive/">
+                  <input id="searchString" name="searchString"
+                         placeholder="Learn Ionic, Be a Better Developer, etc." type="text">
+                  <input id="searchButton" name="googleSearchName" type="button" value="Search">
+              </form>
+          </div>
+	</div>
 </div>
-
-<script src="js/super-search.js"></script>
-<script type="text/javascript">
-superSearch({
-	searchFile: '//mirfield-church.org.uk/feed.rss',
-	searchSelector: '#js-super-search', // CSS Selector for search container element.
-	inputSelector: '#js-super-search__input', // CSS selector for <input>
-	resultsSelector: '#js-super-search__results' // CSS selector for results container
-});
-</script>
