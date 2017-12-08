@@ -11,6 +11,7 @@ collections:
 facebook_page:
 base_address: "Wellhouse Lane, Mirfield, West Yorkshire WF14 0AN United Kingdom"
 phone_number: "01924 499189"
+charity: "Registered Charity 1172130"
 
 # Build settings
 markdown: kramdown
