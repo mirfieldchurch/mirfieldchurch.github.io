@@ -1,5 +1,5 @@
 ---
-title: Acts 4
+title: Praying for Boldness in a Secular Age
 testament: New
 pastor: Kevin Ball
 book: Acts 4:1-31
