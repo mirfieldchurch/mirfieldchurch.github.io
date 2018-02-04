@@ -1,5 +1,5 @@
 ---
-title: The Marriage at Caana
+title: Glimpses of Glory
 testament: New
 pastor: Geoff King
 book: John 2:1-11
