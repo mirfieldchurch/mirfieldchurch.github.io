@@ -35,6 +35,9 @@
             </ul>
         </div>
         <!-- /.navbar-collapse -->
+        {% if page.url  == "/services.html" %}
+            {% include search.html %}
+        {% endif %}
     </div>
     <!-- /.container-fluid -->
 </nav>
