@@ -8,6 +8,7 @@
         "url":"{{ sermon.audio }}",
         "pastor":"{{ sermon.pastor }}",
         "service":"{{ sermon.service }}",
+        "date":"{{ sermon.date | date: "%Y-%m-%d" }}",
         "tags ": "sermons"   
     } {% unless forloop.last %},{% endunless %}           
     {% endfor %}
