@@ -94,30 +94,64 @@ header .header-content .header-content-inner {
 #beliefs{
     margin-top: 10%;
 }
- #searchBar {
-   font-size: 80%;
-   padding: 0.43em 0 0.57em;
+#archives{
+    margin-top: 14em;
+}
+#search-bar {
+position: absolute;
+width: 100%;
+font-size: 80%;
+right: 0;
+left: 0;
+z-index: 1030;
 
-       #search {
-         float: right;
-
-         #searchString {
-           width: 283px;
-           border: none;
-           box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2) inset;
-           padding: 0.3em 0.6em;
-           background-color: #f6f5ea;
-           margin-right: 0;
-         }
-
-         #searchButton {
-           padding: 0.3em 0.6em;
-           background-color: #0B5485;
-           border: 1px solid #f6f5ea;
-           margin-left: 0;
-           color: white;
-           -webkit-appearance: none;
-           border-radius: 0;
-         }
-     }
+    &.search-bar-shrink{
+        top:3.5rem;
+        padding-top: 0.43rem;
+    }
+    #search-input {
+        color: #333;
+       padding: 17px;
+       border: 1px solid #e3e3e3;
+       border-radius: 0;
+       -moz-appearance: none;
+       -webkit-appearance: none;
+        box-shadow: none; 
+       outline: 0;
+       margin: 0;
+    }
+    & > ul{
+       list-style: none; 
+       color: #333;
+       li > a{
+           color: #e3e3e3
+       }
+    }
+    .service-box > a,i{
+        color: #e3e3e3
+    }
+}
+input#search-input{
+    margin: 0.2rem 0.3rem;
+    width: 450px;
+    max-width: unset;
+    @media (min-width: 768px) {
+        max-width: 310px;
+    }
+    transition: all 0.2s ease-in-out;
+}
+.search-left
+{
+     float: left;
+     padding: 15px 9px 0 0;
+}
+.search-right
+{
+     float: left;
+     padding: 0.8rem 0 0;
+}
+.search-icon
+{
+     width: 24px;
+     height: 24px;
 }

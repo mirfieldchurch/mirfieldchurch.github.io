@@ -7,7 +7,6 @@ url: "http://mirfield-church.org.uk" # the base hostname & protocol for your sit
 # using collections as a custom post type
 collections: 
     -   sermons
-    -   books
 facebook_page:
 base_address: "Wellhouse Lane, Mirfield, West Yorkshire WF14 0AN United Kingdom"
 phone_number: "01924 499189"
@@ -19,4 +18,4 @@ markdown: kramdown
 # plugin for search 
 # url: https://github.com/slashdotdash/jekyll-lunr-js-search
 # gems: ['jekyll-lunr-js-search']
-gems: ['jekyll-feed']
+plugins: ['jekyll-feed']
