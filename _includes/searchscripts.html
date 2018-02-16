@@ -5,6 +5,7 @@ SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
   json: {% include data.js %},
-  searchResultTemplate: '<li><div class="service-box"><a href="{url}"><i class="fa fa-4x fa-volume-up wow bounceIn " data-wow-delay=".{% increment bounceDelay %}s"></i>{title}: {text}</a><div style="clear: both;"></div></div></li>'
+  searchResultTemplate: '<li><div class="service-box"><a href="{url}"><i class="fa fa-4x fa-volume-up wow bounceIn " data-wow-delay=".{% increment bounceDelay %}s"></i>{title}: {text}</a><div style="clear: both;"></div></div></li>',
+  limit: 30
 })
 </script>
