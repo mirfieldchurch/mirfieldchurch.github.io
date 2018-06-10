@@ -1,5 +1,5 @@
 ---
-title: The one you can trust
+title: The One You Can Trust
 testament: Old
 pastor: Geoff King
 book: Isaiah 50
