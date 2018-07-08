@@ -1,5 +1,5 @@
 ---
-title: Leadership: Marks Of A Healthy Church
+title: Leadership-Marks Of A Healthy Church
 testament: New
 pastor: Daniel Grimwade
 book: Hebrews 13:7-19
