@@ -1,5 +1,5 @@
 ---
-title: 1 Peter 2:1-10
+title: Essential Elements Of Being Church
 testament: New
 pastor: Trevor Daykin
 book: 1 Peter 2:1-10
