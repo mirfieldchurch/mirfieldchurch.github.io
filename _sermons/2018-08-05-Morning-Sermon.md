@@ -1,5 +1,5 @@
 ---
-title: Does God Care?
+title: God Is In Control
 testament: Old
 pastor: Phil Symes
 book: Habakkuk 1:1-2:1
