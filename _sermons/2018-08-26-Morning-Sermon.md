@@ -1,5 +1,5 @@
 ---
-title: THe Unity of The Church
+title: The Unity of The Church
 testament: New
 pastor: Nick Fuller
 book: John 17
