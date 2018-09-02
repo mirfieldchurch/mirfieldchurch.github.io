@@ -1,5 +1,5 @@
 ---
-title: Our Identity In Christ
+title: Where Do We Belong?
 testament: New
 pastor: David Puttick
 book: 1 Peter 1:1-2
