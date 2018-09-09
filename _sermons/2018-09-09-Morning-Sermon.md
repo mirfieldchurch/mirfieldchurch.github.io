@@ -1,5 +1,5 @@
 ---
-title: The Lamb
+title: A Strange Hope
 testament: New
 pastor: David Puttick
 book: John 1:19-34
