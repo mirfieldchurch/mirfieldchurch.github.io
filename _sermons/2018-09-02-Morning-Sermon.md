@@ -1,5 +1,5 @@
 ---
-title: Introducing Jesus
+title: The Word
 testament: New
 pastor: David Puttick
 book: John 1:1-18
