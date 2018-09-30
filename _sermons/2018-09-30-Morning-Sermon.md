@@ -1,5 +1,5 @@
 ---
-title: The Glory of the Messiah and the New Age
+title: The Bridegroom
 testament: New
 pastor: Dave Puttick
 book: John 2:1-12
