@@ -1,5 +1,5 @@
 ---
-title: The Gospel-What You Need To Remember
+title: Remembering The Gospel
 testament: New
 pastor: Jamie Mason
 book: Colossians: 1:1-23
