@@ -1,5 +1,5 @@
 ---
-title: 
+title: Jonah in a Sulk
 testament: Old
 pastor: Dave Puttick
 book: Jonah 4
