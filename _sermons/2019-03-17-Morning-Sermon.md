@@ -1,5 +1,5 @@
 ---
-title: What do you wmat from life? 
+title: What do you want from life? 
 testament: New
 pastor: Dave Puttick
 book: John 6:22-51
