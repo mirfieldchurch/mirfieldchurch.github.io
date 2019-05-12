@@ -1,5 +1,5 @@
 ---
-title: "Look up!"-Christ prays for us at our weakest
+title: Christ prays for us at our weakest
 testament: New
 pastor: Luke Jenner
 book: Luke 22:7-32
