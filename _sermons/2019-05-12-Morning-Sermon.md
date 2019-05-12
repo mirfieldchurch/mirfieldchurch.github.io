@@ -1,5 +1,5 @@
 ---
-title: Christ prays for us at our weakest
+title: Christ Prays for Us at our Weakest
 testament: New
 pastor: Luke Jenner
 book: Luke 22:7-32
