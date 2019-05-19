@@ -1,3 +1,4 @@
+---
 title: Doing Business With God in Prayer
 testament: Old
 pastor: Jamie Mason
