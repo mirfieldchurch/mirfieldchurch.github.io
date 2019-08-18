@@ -1,5 +1,5 @@
 ---
-title: Complete in Christ - Living in Christ 
+title: Complete in Christ-Living in Christ 
 testament: New
 pastor: Dave Puttick
 book: Colossians 3:15-4:1
