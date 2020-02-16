@@ -1,5 +1,5 @@
 ---
-title: What Should a CHristian's Life Look Like?
+title: What Should a Christian's Life Look Like?
 testament: New
 pastor: Jamie Mason
 book: Matthew 5:1-12
