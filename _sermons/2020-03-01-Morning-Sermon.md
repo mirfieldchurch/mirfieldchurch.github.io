@@ -1,5 +1,5 @@
 ---
-title: Wisdom for young & old
+title: Wisdom for Young and Old
 testament: Old
 pastor: Dave Puttick
 book: Ecclesiastes 11:7-12:8
