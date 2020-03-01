@@ -1,5 +1,5 @@
 ---
-title:
+title: Leaders in the Local Church
 testament: New
 pastor: Dave Puttick
 book: 1 Timothy 3:1-13
