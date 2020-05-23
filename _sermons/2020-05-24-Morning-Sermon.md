@@ -1,5 +1,5 @@
 ---
-title: Praise God - Audio
+title: Breathtaking Blessings - Audio
 testament: New
 pastor: David Puttick
 book: Ephesians 1:1-14
