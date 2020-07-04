@@ -1,5 +1,5 @@
 ---
-title: Mystery Made Known - Audio
+title: A Prayer For More - Audio
 testament: New
 pastor: Dave Puttick
 book: Ephesians 3 v 14-21
