@@ -1,5 +1,5 @@
 ---
-title: Mystery Made Known - Video
+title: A Prayer For More - Video
 testament: New
 pastor: Dave Puttick
 book: Ephesians 3 v 14-21
