@@ -1,5 +1,5 @@
 ---
-title: Called to Unity - Audio
+title: Called to Unity - Audio.
 testament: New
 pastor: Dave Puttick
 book: Ephesians 4 v 1-6
