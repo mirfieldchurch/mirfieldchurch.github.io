@@ -17,9 +17,11 @@ layout: null
       </itunes:category>
   </itunes:category>
     <image>
-      <url>{{ '/img/pod-logo.png' | prepend: site.url }}</url>
+      <url>{{ '/img/pod-logo.jpg' | prepend: site.url }}</url>
       <title>Mirfield Evangelical Church</title>
       <link>{{ site.url | xml_escape }}</link>
+      <height>300</height>
+      <width>300</height>
     </image>
     {% assign sorted_sermons = (site.sermons | sort: 'date') | reverse %}
     {% for sermon in sorted_sermons %}
