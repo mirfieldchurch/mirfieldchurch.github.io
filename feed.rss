@@ -11,7 +11,7 @@ layout: null
     <language>en-gb</language>
     <copyright>&#xA9;{{ 'now' | date: '%Y' }} Mirfield Evangelical Church. All rights reserved.</copyright>
     <itunes:author>Mirfield Evangelical Church</itunes:author>
-    <itunes:category text="Religion &amp; Spirituality" >
+    <itunes:category text="Religion & Spirituality" >
         <itunes:category text="Christianity" />
     </itunes:category>
     <image>
