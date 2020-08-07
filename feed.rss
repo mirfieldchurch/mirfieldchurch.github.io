@@ -15,6 +15,7 @@ layout: null
         <itunes:category text="Christianity" />
     </itunes:category>
     <itunes:image href="{{ '/img/pod-logo-lg.jpg' | prepend: site.url }}" />
+    <itunes:explicit>No</itunes:explicit>
     <image>
       <url>{{ '/img/pod-logo.jpg' | prepend: site.url }}</url>
       <title>Mirfield Evangelical Church</title>
